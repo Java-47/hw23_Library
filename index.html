@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <script src="./Book.js" defer></script>
+    <script src="./Library.js" defer></script>
+    <script src="./scripts.js" defer></script>
+</head>
+<body>
+    <div>
+        <label>ISBN:
+            <input type="text" id="ISBN">
+        </label>
+        <label>Title:
+            <input type="text" id="Title">
+        </label>
+        <label>Author:
+            <input type="text" id="Author">
+        </label>
+        <label>Date of publishing:
+            <input type="date" id="Year">
+        </label>
+    </div>
+    <div>
+        <button id="addBook">Add Book</button>
+    </div>
+    <div id="stats">
+        <h2>Stats</h2>
+    </div>
+    <div>
+        <h2>Books</h2>
+        <ol id="bookList"></ol>
+    </div>
+    
+</body>
+</html>
